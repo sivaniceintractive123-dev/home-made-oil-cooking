@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Rudrayya Oil Mill — From Seed to Pure Oil | Traditional Cold-Pressed Cooking Oils</title>
+  <meta name="description" content="Discover The Rudrayya Oil Mill. Pure, naturally processed cold-pressed Coconut, Groundnut, and Sesame oils traditionally crafted using slow-turning Vaagai wood presses.">
+
+  <!-- Google Fonts: Cormorant Garamond, Plus Jakarta Sans, Caveat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Film Grain Overlay -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- Custom Magnetic Cursor -->
+  <div class="custom-cursor" aria-hidden="true"></div>
+  <div class="custom-cursor-follower" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" data-cursor-text="HOME">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 32 32">
+            <path d="M16 3 C16 3 8 13 8 19 C8 24 11.5 28 16 28 C20.5 28 24 24 24 19 C24 13 16 3 16 3 Z" />
+            <circle cx="16" cy="19" r="4" fill="#D69726" opacity="0.6"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span>The Rudrayya</span>
+          <span class="logo-sub">Oil Mill • Estd. Wood Press</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link" data-cursor-text="VIEW">Pure Drop</a></li>
+          <li><a href="#journey" class="nav-link" data-cursor-text="VIEW">Journey</a></li>
+          <li><a href="#collection" class="nav-link" data-cursor-text="VIEW">Our Oils</a></li>
+          <li><a href="#process" class="nav-link" data-cursor-text="VIEW">The Process</a></li>
+          <li><a href="#ingredients" class="nav-link" data-cursor-text="VIEW">Botanicals</a></li>
+          <li><a href="#story" class="nav-link" data-cursor-text="VIEW">Story</a></li>
+          <li><a href="#trust" class="nav-link" data-cursor-text="VIEW">Traceability</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Ambiance Sound Toggle -->
+        <button id="soundToggleBtn" class="sound-toggle-btn" aria-label="Toggle Sound Atmosphere" data-cursor-text="SOUND">
+          <div class="sound-waves">
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+          </div>
+        </button>
+
+        <a href="#collection" class="btn btn-outline" style="padding: 0.75rem 1.6rem; font-size: 0.78rem;" data-cursor-text="PANTRY">
+          Sample Trio
+        </a>
+
+        <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Open Navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       SECTION 1: HERO SECTION — "PURENESS IN EVERY DROP"
+       Scroll-Driven Cinematic Transformation: Whole Coconut -> Cracking ->
+       Wood Press -> Oil Flowing -> Golden Transformation -> Artisanal Bottle Settled
+       ========================================================================== -->
+  <section id="hero" class="hero-wrapper">
+    <div class="hero-main-container">
+      <!-- Ambient Golden Droplets Canvas Background -->
+      <canvas id="heroCanvas" class="hero-canvas-bg"></canvas>
+
+      <div class="container hero-layout">
+        <!-- Left: Editorial Headline & Messaging -->
+        <div class="hero-left">
+          <div class="eyebrow no-after">Traditional Cold-Pressed Heritage</div>
+          <h1 class="heading-xl hero-main-heading" aria-label="Pure Ingredients. Pure Process. Pure Oil.">
+            <span class="hero-title-line clumsy-line" data-line="1">
+              <span class="clumsy-word" data-word="Pure"><span class="clumsy-char">P</span><span class="clumsy-char">u</span><span class="clumsy-char">r</span><span class="clumsy-char">e</span></span><span class="clumsy-space">&nbsp;</span><span class="clumsy-word" data-word="Ingredients."><span class="clumsy-char">I</span><span class="clumsy-char">n</span><span class="clumsy-char">g</span><span class="clumsy-char">r</span><span class="clumsy-char">e</span><span class="clumsy-char">d</span><span class="clumsy-char">i</span><span class="clumsy-char">e</span><span class="clumsy-char">n</span><span class="clumsy-char">t</span><span class="clumsy-char">s</span><span class="clumsy-char clumsy-dot">.</span></span>
+            </span>
+            <span class="hero-title-line clumsy-line" data-line="2">
+              <span class="clumsy-word" data-word="Pure"><span class="clumsy-char">P</span><span class="clumsy-char">u</span><span class="clumsy-char">r</span><span class="clumsy-char">e</span></span><span class="clumsy-space">&nbsp;</span><span class="clumsy-word" data-word="Process."><span class="clumsy-char">P</span><span class="clumsy-char">r</span><span class="clumsy-char">o</span><span class="clumsy-char">c</span><span class="clumsy-char">e</span><span class="clumsy-char">s</span><span class="clumsy-char">s</span><span class="clumsy-char clumsy-dot">.</span></span>
+            </span>
+            <span class="hero-title-line hero-oil-line">
+              <span class="hero-oil-text">Pure Oil.</span>
+            </span>
+          </h1>
+          <p class="hero-supporting">
+            Traditionally crafted from carefully selected natural ingredients using a slow, unheated wood-press process that preserves every drop of nature’s vitality.
+          </p>
+          <div class="hero-ctas">
+            <a href="#collection" class="btn btn-primary" data-cursor-text="EXPLORE">
+              Explore Our Oils
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#process" class="btn btn-outline" data-cursor-text="WATCH">
+              See How It's Made
+            </a>
+          </div>
+        </div>
+
+        <!-- Center: Interactive Transformation Stage -->
+        <div class="hero-stage-container">
+          <div class="hero-stage-canvas">
+            <!-- Stage 01: Selected Whole Coconut -->
+            <div class="story-layer hero-story-layer active" data-stage="0">
+              <div class="layer-img-wrap">
+                <img src="assets/images/coconut_whole.jpg" alt="The Rudrayya Oil Mill Whole Coconut">
+              </div>
+              <div class="layer-tag">
+                <span class="layer-tag-dot"></span>
+                01 • Mature Coconut Selection
+              </div>
+            </div>
+
+            <!-- Stage 02: Coconut Cracking & Pure White Copra -->
+            <div class="story-layer hero-story-layer" data-stage="1">
+              <div class="layer-img-wrap">
+                <img src="assets/images/step2_prepared.jpg" alt="Natural Coconut Preparation">
+              </div>
+              <div class="layer-tag">
+                <span class="layer-tag-dot"></span>
+                02 • Naturally Sun-Cured Copra
+              </div>
+            </div>
+
+            <!-- Stage 03: Traditional Vaagai Wood Oil Press (Marachekku) -->
+            <div class="story-layer hero-story-layer" data-stage="2">
+              <div class="layer-img-wrap">
+                <img src="assets/images/wood_press.jpg" alt="Traditional Vaagai Wood Press">
+              </div>
+              <div class="layer-tag">
+                <span class="layer-tag-dot"></span>
+                03 • Traditional Wood Press (14 RPM)
+              </div>
+            </div>
+
+            <!-- Stage 04: Pure Golden Oil Flowing -->
+            <div class="story-layer hero-story-layer" data-stage="3">
+              <div class="layer-img-wrap">
+                <img src="assets/images/step4_filtered.jpg" alt="Natural Golden Oil Dripping">
+              </div>
+              <div class="layer-tag">
+                <span class="layer-tag-dot"></span>
+                04 • Natural Gravity Flow (<45°C)
+              </div>
+            </div>
+
+            <!-- Stage 05: Golden Viscous Decanting Stream -->
+            <div class="story-layer hero-story-layer" data-stage="4">
+              <div class="layer-img-wrap">
+                <img src="assets/images/oil_stream.jpg" alt="Pure Cold Pressed Oil Ribbon Stream">
+              </div>
+              <div class="layer-tag">
+                <span class="layer-tag-dot"></span>
+                05 • Liquid Gold Decanted
+              </div>
+            </div>
+
+            <!-- Stage 06: Final Apothecary Bottle Settled Center -->
+            <div class="story-layer hero-story-layer" data-stage="5">
+              <div class="layer-img-wrap layer-bottle">
+                <div class="bottle-presentation-wrap">
+                  <img src="assets/images/bottle_coconut.jpg" alt="The Rudrayya Oil Mill Pure Coconut Oil">
+                </div>
+              </div>
+              <div class="layer-tag">
+                <span class="layer-tag-dot"></span>
+                06 • Master Batch Bottle Settled
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Telemetry & Interactive Progress Scrubber -->
+        <div class="hero-right">
+          <div class="hero-telemetry-box">
+            <div class="telemetry-header">
+              <span class="telemetry-title">Extraction Sequence</span>
+              <span class="telemetry-status">
+                <span class="pulse-dot"></span>
+                <span id="telemetryStepNum">01 / 06</span>
+              </span>
+            </div>
+            <h3 id="telemetryStageName" class="telemetry-stage-name">Selected Whole Coconut</h3>
+            <p id="telemetryStageDesc" class="telemetry-desc">
+              Handpicked mature Malabar coastal coconuts, harvested at peak richness and balanced moisture.
+            </p>
+            <div class="hero-stage-dots">
+              <div class="stage-dot active" data-cursor-text="STEP 1"></div>
+              <div class="stage-dot" data-cursor-text="STEP 2"></div>
+              <div class="stage-dot" data-cursor-text="STEP 3"></div>
+              <div class="stage-dot" data-cursor-text="STEP 4"></div>
+              <div class="stage-dot" data-cursor-text="STEP 5"></div>
+              <div class="stage-dot" data-cursor-text="STEP 6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 2: "FROM NATURE TO YOUR KITCHEN"
+       Interactive Horizontal Scroll Storytelling (01 to 05)
+       ========================================================================== -->
+  <section id="journey" class="horizontal-scroll-section">
+    <div class="container horizontal-header-strip">
+      <div>
+        <div class="eyebrow">The Fivefold Journey</div>
+        <h2 class="heading-lg clumsy-heading">From Nature To Your Kitchen</h2>
+      </div>
+      <p class="lead-text" style="max-width: 44ch;">
+        Every single bottle undergoes five slow, deliberate steps of craftsmanship — honoring centuries of Indian wood-press heritage.
+      </p>
+    </div>
+
+    <div class="horizontal-pin-wrapper">
+      <div class="horizontal-track">
+        <!-- Step 01 -->
+        <div class="journey-card" data-step="0" data-cursor-text="01">
+          <div class="journey-card-image">
+            <img src="assets/images/step1_selected.jpg" alt="Artisan selecting pure ingredients">
+            <div class="journey-step-badge">01</div>
+          </div>
+          <div class="journey-card-content">
+            <h3 class="journey-card-title">Carefully Selected</h3>
+            <p class="journey-card-desc">
+              We partner directly with heritage farming families. Only sun-dried Malabar coconuts, Saurashtra heirloom groundnuts, and wild black sesame seeds pass our moisture and density inspection.
+            </p>
+            <div class="journey-card-meta">
+              <span>Standard: <strong>A+ Grade Only</strong></span>
+              <span>Rejection Rate: <strong>18% Filtered Out</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 02 -->
+        <div class="journey-card" data-step="1" data-cursor-text="02">
+          <div class="journey-card-image">
+            <img src="assets/images/step2_prepared.jpg" alt="Natural sun-drying of copra">
+            <div class="journey-step-badge">02</div>
+          </div>
+          <div class="journey-card-content">
+            <h3 class="journey-card-title">Naturally Prepared</h3>
+            <p class="journey-card-desc">
+              Fresh coconut copra and seeds are hand-sliced and sun-cured over organic reed mats in coastal courtyards. Zero sulphur bleaching, zero chemical fumigation, zero synthetic drying ovens.
+            </p>
+            <div class="journey-card-meta">
+              <span>Curing: <strong>Sun & Wind Only</strong></span>
+              <span>Moisture Target: <strong>4.5% to 5.0%</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="journey-card" data-step="2" data-cursor-text="03">
+          <div class="journey-card-image">
+            <img src="assets/images/step3_press.jpg" alt="Traditional Vaagai Marachekku Pressing">
+            <div class="journey-step-badge">03</div>
+          </div>
+          <div class="journey-card-content">
+            <h3 class="journey-card-title">Traditionally Pressed</h3>
+            <p class="journey-card-desc">
+              Cold-pressed inside ancient Vaagai (Albizia Lebbeck) hardwood mortars. The heavy pestle turns at under 14 RPM, keeping temperatures strictly below 45°C to preserve active enzymes and antioxidants.
+            </p>
+            <div class="journey-card-meta">
+              <span>Friction Heat: <strong>< 38.5°C Measured</strong></span>
+              <span>Timber: <strong>Aged Vaagai Hardwood</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 04 -->
+        <div class="journey-card" data-step="3" data-cursor-text="04">
+          <div class="journey-card-image">
+            <img src="assets/images/step4_filtered.jpg" alt="Muslin cloth natural filtration">
+            <div class="journey-step-badge">04</div>
+          </div>
+          <div class="journey-card-content">
+            <h3 class="journey-card-title">Naturally Filtered</h3>
+            <p class="journey-card-desc">
+              Instead of chemical solvent clarification or high-pressure filters, our raw oil settles naturally in earthenware vats for 72 hours, then gravity-drips through 4 layers of organic unbleached cotton muslin.
+            </p>
+            <div class="journey-card-meta">
+              <span>Clarification: <strong>72h Gravity Settling</strong></span>
+              <span>Filter Media: <strong>Organic Raw Muslin</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 05 -->
+        <div class="journey-card" data-step="4" data-cursor-text="05">
+          <div class="journey-card-image">
+            <img src="assets/images/step5_bottled.jpg" alt="Hand bottling into dark glass">
+            <div class="journey-step-badge">05</div>
+          </div>
+          <div class="journey-card-content">
+            <h3 class="journey-card-title">Purely Bottled</h3>
+            <p class="journey-card-desc">
+              Every bottle of The Rudrayya Oil Mill is filled by hand, sealed with natural cork stoppers, tied with organic jute cord, and stamped with our single-estate harvest batch certificate.
+            </p>
+            <div class="journey-card-meta">
+              <span>Packaging: <strong>Apothecary Glass</strong></span>
+              <span>Seal: <strong>Natural Biodegradable Cork</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animated Progress Indicator 01 -> 02 -> 03 -> 04 -> 05 -->
+      <div class="journey-progress-bar">
+        <span class="journey-step-indicator active">01</span>
+        <span>→</span>
+        <span class="journey-step-indicator">02</span>
+        <span>→</span>
+        <span class="journey-step-indicator">03</span>
+        <span>→</span>
+        <span class="journey-step-indicator">04</span>
+        <span>→</span>
+        <span class="journey-step-indicator">05</span>
+        <div class="journey-track-line">
+          <div class="journey-track-fill"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 3: INTERACTIVE OIL COLLECTION
+       Minimalist High-Fashion Product Cards with 3D Tilt, Particle Hover & Auras
+       ========================================================================== -->
+  <section id="collection" class="section collection-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 720px; margin-inline: auto;">
+        <div class="eyebrow">Artisanal Master Batches</div>
+        <h2 class="heading-lg clumsy-heading">The Rudrayya Reserve Oils</h2>
+        <p class="lead-text" style="margin-top: 1rem;">
+          Pure, unrefined, single-origin cold-pressed oils. Unbleached, undeodorized, and completely uncompromised.
+        </p>
+      </div>
+
+      <div class="collection-grid">
+        <!-- Product 1: Coconut Oil -->
+        <div class="product-card" data-cursor-text="TASTE">
+          <div class="product-aura aura-coconut"></div>
+          <div class="product-particles">
+            <div class="seed-particle" style="top: 20%; left: 30%; width: 6px; height: 6px;"></div>
+            <div class="seed-particle" style="top: 60%; left: 75%; width: 8px; height: 8px; animation-delay: 1.2s;"></div>
+            <div class="seed-particle" style="top: 40%; left: 15%; width: 5px; height: 5px; animation-delay: 2.1s;"></div>
+          </div>
+
+          <div class="product-visual-wrap">
+            <div class="bottle-presentation-wrap">
+              <img src="assets/images/bottle_coconut.jpg" alt="The Rudrayya Pure Coconut Oil" class="product-bottle-img">
+            </div>
+          </div>
+
+          <span class="product-badge">Single Estate • Malabar</span>
+          <h3 class="product-title">Virgin Coconut Oil</h3>
+          <p class="product-quote">"Naturally extracted from carefully selected coconuts."</p>
+
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Smoke Point</span>
+              <span class="spec-val">177°C / 350°F</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Press Speed</span>
+              <span class="spec-val">12 RPM</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Lauric Acid</span>
+              <span class="spec-val">52.8%</span>
+            </div>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn btn-primary btn-card btn-add-pantry" data-product-name="The Rudrayya Virgin Coconut Oil">
+              Add To Pantry • ₹480
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 2: Groundnut Oil -->
+        <div class="product-card" data-cursor-text="TASTE">
+          <div class="product-aura aura-groundnut"></div>
+          <div class="product-particles">
+            <div class="seed-particle" style="top: 25%; left: 25%; width: 7px; height: 7px; background: #E6A728;"></div>
+            <div class="seed-particle" style="top: 55%; left: 80%; width: 9px; height: 9px; background: #C8861B; animation-delay: 0.8s;"></div>
+            <div class="seed-particle" style="top: 70%; left: 20%; width: 6px; height: 6px; background: #E6A728; animation-delay: 1.8s;"></div>
+          </div>
+
+          <div class="product-visual-wrap">
+            <div class="bottle-presentation-wrap">
+              <img src="assets/images/bottle_groundnut.jpg" alt="The Rudrayya Pure Groundnut Oil" class="product-bottle-img">
+            </div>
+          </div>
+
+          <span class="product-badge">Heirloom Peanuts • Saurashtra</span>
+          <h3 class="product-title">Pure Groundnut Oil</h3>
+          <p class="product-quote">"Traditional goodness with a rich, natural flavour."</p>
+
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Smoke Point</span>
+              <span class="spec-val">227°C / 440°F</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Press Speed</span>
+              <span class="spec-val">14 RPM</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">MUFA Content</span>
+              <span class="spec-val">49.4%</span>
+            </div>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn btn-primary btn-card btn-add-pantry" data-product-name="The Rudrayya Pure Groundnut Oil">
+              Add To Pantry • ₹420
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 3: Sesame Oil -->
+        <div class="product-card" data-cursor-text="TASTE">
+          <div class="product-aura aura-sesame"></div>
+          <div class="product-particles">
+            <div class="seed-particle" style="top: 30%; left: 35%; width: 5px; height: 5px; background: #4A3525;"></div>
+            <div class="seed-particle" style="top: 65%; left: 70%; width: 6px; height: 6px; background: #C8861B; animation-delay: 1.5s;"></div>
+            <div class="seed-particle" style="top: 45%; left: 20%; width: 5px; height: 5px; background: #4A3525; animation-delay: 2.4s;"></div>
+          </div>
+
+          <div class="product-visual-wrap">
+            <div class="bottle-presentation-wrap">
+              <img src="assets/images/bottle_sesame.jpg" alt="The Rudrayya Pure Sesame Oil" class="product-bottle-img">
+            </div>
+          </div>
+
+          <span class="product-badge">With Palm Karupatti • Madurai</span>
+          <h3 class="product-title">Wood-Pressed Sesame</h3>
+          <p class="product-quote">"Deep aroma. Traditional taste. Naturally crafted."</p>
+
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Smoke Point</span>
+              <span class="spec-val">210°C / 410°F</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Press Speed</span>
+              <span class="spec-val">10 RPM</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Sesamol Level</span>
+              <span class="spec-val">Rich Natural</span>
+            </div>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn btn-primary btn-card btn-add-pantry" data-product-name="The Rudrayya Wood-Pressed Sesame Oil">
+              Add To Pantry • ₹540
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 4: THE PROCESS — IMMERSIVE ANIMATION ("Watch Nature Become Oil")
+       Interactive Mechanical Physics & Fluid Extraction Simulator
+       ========================================================================== -->
+  <section id="process" class="section process-section">
+    <div class="container">
+      <div class="process-header">
+        <div class="eyebrow" style="color: var(--accent-gold-light);">Interactive Extraction Simulation</div>
+        <h2 class="heading-lg clumsy-heading" style="color: #FFF;">Watch Nature Become Oil</h2>
+        <p class="lead-text" style="color: var(--text-light-secondary); margin-top: 1rem;">
+          Observe the physics of authentic traditional Indian oil extraction. No heat, no solvents, no chemicals — just raw mechanical harmony between sun-cured seeds and seasoned Vaagai hardwood.
+        </p>
+      </div>
+
+      <div class="process-interactive-wrapper">
+        <!-- Interactive Stage Tabs -->
+        <div class="process-tabs">
+          <button class="process-tab active" data-step="0">01 • Raw Seeds</button>
+          <button class="process-tab" data-step="1">02 • Air Cleaning</button>
+          <button class="process-tab" data-step="2">03 • Vaagai Crushing</button>
+          <button class="process-tab" data-step="3">04 • Cold Extraction</button>
+          <button class="process-tab" data-step="4">05 • Muslin Filtering</button>
+          <button class="process-tab" data-step="5">06 • Pure Bottling</button>
+        </div>
+
+        <!-- Simulation Physics Stage Canvas -->
+        <div class="simulation-stage">
+          <canvas id="processSimCanvas" class="simulation-canvas"></canvas>
+
+          <!-- Live Engineering Telemetry Overlay -->
+          <div class="simulation-overlay-ui">
+            <div class="sim-metric">
+              <span class="sim-metric-label">Press Chamber Temp</span>
+              <span id="simTemp" class="sim-metric-val">28.5°C</span>
+            </div>
+            <div class="sim-metric">
+              <span class="sim-metric-label">Pestle Velocity</span>
+              <span id="simRpm" class="sim-metric-val">0 RPM</span>
+            </div>
+            <div class="sim-metric">
+              <span class="sim-metric-label">Extracted Yield</span>
+              <span id="simYield" class="sim-metric-val">0.0 L</span>
+            </div>
+          </div>
+
+          <!-- Playback Controls -->
+          <div class="simulation-controls">
+            <button id="simPlayBtn" class="sim-ctrl-btn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>
+              </svg>
+              Pause
+            </button>
+            <button id="simSpeedBtn" class="sim-ctrl-btn">1.0x Speed</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Process Information Strip -->
+        <div class="process-info-strip">
+          <div id="processCurrentNum" class="process-step-num">01</div>
+          <div class="process-step-body">
+            <h4 id="processCurrentTitle">Seed & Copra Feeding</h4>
+            <p id="processCurrentDesc">
+              Raw sun-cured copra and heirloom groundnuts enter the tapered feeding hopper. Only clean, unblemished ingredients pass the initial sensor gate.
+            </p>
+          </div>
+          <div>
+            <span id="processCurrentBadge" class="process-detail-badge">Moisture Content: 4.8%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 5: "WHY OUR OIL?"
+       Animated Benefits with Custom Line Icons that draw via SVG animations
+       ========================================================================== -->
+  <section class="section benefits-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 720px; margin-inline: auto;">
+        <div class="eyebrow">The Purity Promise</div>
+        <h2 class="heading-lg clumsy-heading">Why The Rudrayya Oil Mill?</h2>
+        <p class="lead-text" style="margin-top: 1rem;">
+          In an era of industrial chemical extraction and high-heat deodorization, we choose the patient path of uncompromised truth.
+        </p>
+      </div>
+
+      <div class="benefits-grid">
+        <!-- Benefit 1 -->
+        <div class="benefit-card" data-cursor-text="100%">
+          <div class="benefit-icon-wrap">
+            <svg class="benefit-icon-svg" viewBox="0 0 64 64">
+              <path d="M32 10 C32 10 16 26 16 38 C16 47 23 54 32 54 C41 54 48 47 48 38 C48 26 32 10 32 10 Z" />
+              <path d="M32 24 C32 24 24 33 24 39 C24 43 27.5 46 32 46" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">100% Natural Ingredients</h3>
+          <p class="benefit-desc">
+            Single-estate, sun-cured copra, wild sesame, and non-GMO heirloom peanuts harvested in season without chemical spray.
+          </p>
+        </div>
+
+        <!-- Benefit 2 -->
+        <div class="benefit-card" data-cursor-text="CRAFT">
+          <div class="benefit-icon-wrap">
+            <svg class="benefit-icon-svg" viewBox="0 0 64 64">
+              <circle cx="32" cy="32" r="22" />
+              <path d="M32 18 L32 32 L42 42" />
+              <circle cx="32" cy="32" r="5" fill="#D69726" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">Traditional Processing</h3>
+          <p class="benefit-desc">
+            Vaagai wood Marachekku mortar rotation at under 14 RPM. No motor overheating, preserving delicate bio-active compounds.
+          </p>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="benefit-card" data-cursor-text="ZERO">
+          <div class="benefit-icon-wrap">
+            <svg class="benefit-icon-svg" viewBox="0 0 64 64">
+              <rect x="14" y="14" width="36" height="36" rx="6" />
+              <line x1="20" y1="20" x2="44" y2="44" />
+              <line x1="44" y1="20" x2="20" y2="44" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">No Unnecessary Additives</h3>
+          <p class="benefit-desc">
+            Zero mineral oils, zero chemical hexane solvents, zero synthetic preservatives, and zero artificial bleaching agents.
+          </p>
+        </div>
+
+        <!-- Benefit 4 -->
+        <div class="benefit-card" data-cursor-text="SLOW">
+          <div class="benefit-icon-wrap">
+            <svg class="benefit-icon-svg" viewBox="0 0 64 64">
+              <path d="M12 48 C20 40 28 42 36 34 C44 26 48 14 48 14 C48 14 36 18 28 26 C20 34 22 42 12 48 Z" />
+              <line x1="16" y1="48" x2="32" y2="32" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">Carefully Crafted</h3>
+          <p class="benefit-desc">
+            Small-batch production limited to 60 liters per day. Every batch is tasted and certified before hand-bottling.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 6: INGREDIENTS COME TO LIFE
+       Interactive Central Bottle with Orbiting Ingredients & Dynamic Bezier Connectors
+       ========================================================================== -->
+  <section id="ingredients" class="section ingredients-interactive-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 720px; margin-inline: auto;">
+        <div class="eyebrow">Botanical Origins</div>
+        <h2 class="heading-lg clumsy-heading">Ingredients Come To Life</h2>
+        <p class="lead-text" style="margin-top: 1rem;">
+          Hover over each heritage botanical below to trace its journey, harvest origin, and nutritional synergy with our central bottle.
+        </p>
+      </div>
+
+      <div class="ingredients-stage">
+        <!-- Dynamic Bezier Connecting SVG Lines -->
+        <svg class="connecting-svg-canvas"></svg>
+
+        <!-- Orbiting Ingredient Node 1: Coconut -->
+        <div class="ingredient-node node-coconut active" data-ingredient="coconut" data-cursor-text="COCONUT">
+          <img src="assets/images/coconut_whole.jpg" alt="Malabar Coastal Coconut">
+          <span class="ingredient-node-label">Coconut</span>
+        </div>
+
+        <!-- Orbiting Ingredient Node 2: Groundnut -->
+        <div class="ingredient-node node-groundnut" data-ingredient="groundnut" data-cursor-text="PEANUT">
+          <img src="assets/images/hero_ingredients.jpg" alt="Saurashtra Heirloom Groundnut">
+          <span class="ingredient-node-label">Groundnut</span>
+        </div>
+
+        <!-- Orbiting Ingredient Node 3: Sesame -->
+        <div class="ingredient-node node-sesame" data-ingredient="sesame" data-cursor-text="SESAME">
+          <img src="assets/images/bottle_sesame.jpg" alt="Wild Black Sesame">
+          <span class="ingredient-node-label">Sesame</span>
+        </div>
+
+        <!-- Orbiting Ingredient Node 4: Palm Jaggery -->
+        <div class="ingredient-node node-jaggery" data-ingredient="jaggery" data-cursor-text="JAGGERY">
+          <img src="assets/images/craftsmanship.jpg" alt="Organic Palm Jaggery">
+          <span class="ingredient-node-label">Karupatti</span>
+        </div>
+
+        <!-- Central Master Bottle -->
+        <div class="central-bottle-container">
+          <div class="central-bottle-aura"></div>
+          <div class="bottle-presentation-wrap" style="width: 260px; height: 420px;">
+            <img src="assets/images/bottle_coconut.jpg" alt="The Rudrayya Oil Mill Artisanal Bottle" class="central-bottle-img">
+          </div>
+        </div>
+
+        <!-- Dynamic Botanical Information Card -->
+        <div class="ingredient-detail-card">
+          <div class="botanical-info">
+            <h4 id="botanicalTitle">Malabar Coastal Coconut</h4>
+            <p id="botanicalQuote">“Rich, natural and carefully selected for traditional wood-press oil making.”</p>
+          </div>
+          <div class="botanical-meta">
+            <div>Origin: <strong id="botanicalOrigin">Calicut & Kasaragod, Kerala</strong></div>
+            <div>Oil Yield: <strong id="botanicalYield">62% Pure Virgin Oil</strong></div>
+            <div>Active Profile: <strong id="botanicalFat">Lauric Acid & MCTs</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 7: TRADITIONAL CRAFTSMANSHIP
+       Cinematic Full-Width Parallax Sanctuary with Master Artisan Statement
+       ========================================================================== -->
+  <section class="craftsmanship-section">
+    <div class="craftsmanship-bg">
+      <img src="assets/images/craftsmanship.jpg" alt="Traditional Indian Wood Press Mill at The Rudrayya Oil Mill">
+    </div>
+    <div class="craftsmanship-overlay"></div>
+
+    <div class="craftsmanship-content">
+      <div class="eyebrow" style="color: var(--accent-gold-light);">The Artisan Creed</div>
+      <h2 class="craft-statement clumsy-heading">
+        <span>Made Slowly.</span>
+        <span>Made Naturally.</span>
+        <span>Made With <em>Care.</em></span>
+      </h2>
+      <p class="lead-text" style="color: var(--text-light-secondary); margin-inline: auto;">
+        In the quiet stillness of our village mill, the rhythmic creak of the Vaagai wood pestle has echoed for generations. We do not rush nature; we listen to it.
+      </p>
+
+      <div class="craft-badges-row">
+        <div class="craft-badge-pill">Aged Vaagai Wood Mortar</div>
+        <div class="craft-badge-pill">Ambient Temperature < 45°C</div>
+        <div class="craft-badge-pill">Zero Hexane Solvents</div>
+        <div class="craft-badge-pill">Single Estate Traceability</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 8: FARM TO BOTTLE
+       Horizontal / Stepping Storyline Timeline
+       FARM → INGREDIENT → PRESS → FILTER → BOTTLE → YOUR KITCHEN
+       ========================================================================== -->
+  <section class="section timeline-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 750px; margin-inline: auto;">
+        <div class="eyebrow">The Transparent Lifecycle</div>
+        <h2 class="heading-lg clumsy-heading">Farm To Bottle Timeline</h2>
+        <p class="lead-text" style="margin-top: 1rem;">
+          Trace every milestone of pure oil craftsmanship — from morning mist over coastal groves to the warmth of your dining table.
+        </p>
+      </div>
+
+      <!-- Navigation Pills -->
+      <div class="timeline-nav-pills">
+        <div class="timeline-pill active">01 • Farm <span class="timeline-pill-arrow">→</span></div>
+        <div class="timeline-pill">02 • Ingredient <span class="timeline-pill-arrow">→</span></div>
+        <div class="timeline-pill">03 • Wood Press <span class="timeline-pill-arrow">→</span></div>
+        <div class="timeline-pill">04 • Cotton Filter <span class="timeline-pill-arrow">→</span></div>
+        <div class="timeline-pill">05 • Glass Bottle <span class="timeline-pill-arrow">→</span></div>
+        <div class="timeline-pill">06 • Your Kitchen</div>
+      </div>
+
+      <div class="timeline-stages-wrap">
+        <!-- Stage 1: FARM -->
+        <div class="timeline-stage-row">
+          <div class="timeline-stage-visual">
+            <img src="assets/images/farm_landscape.jpg" alt="Organic Heritage Farm in South India">
+          </div>
+          <div class="timeline-stage-content">
+            <div class="timeline-stage-num">STAGE 01 — THE SOIL</div>
+            <h3 class="timeline-stage-title">Regenerative Farmland</h3>
+            <p class="timeline-stage-desc">
+              Grown in fertile coastal groves and rain-fed black soil fields. Our partner farmers use natural intercropping and compost, keeping the ecosystem balanced and free of synthetic fertilizers.
+            </p>
+            <ul class="timeline-check-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                Pesticide-free certified agricultural zones
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                Natural monsoon rainwater harvesting
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                Fair compensation for smallholder generational farmers
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Stage 2: PRESS & FILTER -->
+        <div class="timeline-stage-row">
+          <div class="timeline-stage-visual">
+            <img src="assets/images/wood_press.jpg" alt="Vaagai Wood Press at The Rudrayya Oil Mill">
+          </div>
+          <div class="timeline-stage-content">
+            <div class="timeline-stage-num">STAGE 02 — THE PRESS</div>
+            <h3 class="timeline-stage-title">Slow Wood Crushing</h3>
+            <p class="timeline-stage-desc">
+              Inside our open-air heritage mill, heavy Vaagai wood beams crush the copra and seeds with patient cadence. The naturally cooling timber ensures delicate fats never undergo thermal oxidation.
+            </p>
+            <ul class="timeline-check-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                Rotation strictly below 14 RPM
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                Naturally unrefined and unbleached
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                Zero loss of Vitamin E and phytosterols
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Stage 3: YOUR KITCHEN -->
+        <div class="timeline-stage-row">
+          <div class="timeline-stage-visual">
+            <img src="assets/images/step5_bottled.jpg" alt="Bottled artisan oil in home kitchen">
+          </div>
+          <div class="timeline-stage-content">
+            <div class="timeline-stage-num">STAGE 03 — YOUR KITCHEN</div>
+            <h3 class="timeline-stage-title">A Living Culinary Elixir</h3>
+            <p class="timeline-stage-desc">
+              When you unseal an amber bottle of The Rudrayya Oil Mill, you breathe in the authentic aroma of pure roasted seed or fresh tropical copra. It elevates every tadka, sauté, baking recipe, and daily meal.
+            </p>
+            <ul class="timeline-check-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                Authentic heirloom aroma and deep flavor
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                High smoke point suitable for wholesome Indian cooking
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+                Nutrient retention verified by third-party NABL labs
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 9: PRODUCT SHOWCASE (3D ROTATION IN DARK MODE)
+       Contrast Noir Environment with Mouse Tilt, Specular Glint & Dossier Modal
+       ========================================================================== -->
+  <section class="section showcase-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 720px; margin-inline: auto;">
+        <div class="eyebrow" style="color: var(--accent-gold);">The Reserve Cellar</div>
+        <h2 class="heading-lg clumsy-heading" style="color: #FFF;">3D Bottle Showcase</h2>
+        <p class="lead-text" style="color: var(--text-light-secondary); margin-top: 1rem;">
+          Hover and glide your cursor over each bottle to examine its 3D depth, specular light caustics, and access certified batch laboratory analysis.
+        </p>
+      </div>
+
+      <div class="showcase-slider-wrap">
+        <!-- 3D Bottle 1: Coconut -->
+        <div class="showcase-item" data-product="coconut" data-cursor-text="ROTATE">
+          <div class="showcase-3d-box">
+            <div class="showcase-specular-light"></div>
+            <div class="bottle-presentation-wrap">
+              <img src="assets/images/bottle_coconut.jpg" alt="The Rudrayya Oil Mill Coconut Oil 3D" class="showcase-bottle-3d">
+            </div>
+          </div>
+          <h3 class="showcase-name">Virgin Coconut Oil</h3>
+          <p class="showcase-tagline">Single Estate Malabar Copra • Cold-Pressed</p>
+          <button class="btn btn-outline-light btn-discover" style="padding: 0.75rem 1.6rem; font-size: 0.75rem;">
+            Discover Oil & Lab Report
+          </button>
+        </div>
+
+        <!-- 3D Bottle 2: Groundnut -->
+        <div class="showcase-item" data-product="groundnut" data-cursor-text="ROTATE">
+          <div class="showcase-3d-box">
+            <div class="showcase-specular-light"></div>
+            <div class="bottle-presentation-wrap">
+              <img src="assets/images/bottle_groundnut.jpg" alt="The Rudrayya Oil Mill Groundnut Oil 3D" class="showcase-bottle-3d">
+            </div>
+          </div>
+          <h3 class="showcase-name">Heritage Groundnut Oil</h3>
+          <p class="showcase-tagline">Saurashtra Heirloom Peanuts • Slow Pressed</p>
+          <button class="btn btn-outline-light btn-discover" style="padding: 0.75rem 1.6rem; font-size: 0.75rem;">
+            Discover Oil & Lab Report
+          </button>
+        </div>
+
+        <!-- 3D Bottle 3: Sesame -->
+        <div class="showcase-item" data-product="sesame" data-cursor-text="ROTATE">
+          <div class="showcase-3d-box">
+            <div class="showcase-specular-light"></div>
+            <div class="bottle-presentation-wrap">
+              <img src="assets/images/bottle_sesame.jpg" alt="The Rudrayya Oil Mill Sesame Oil 3D" class="showcase-bottle-3d">
+            </div>
+          </div>
+          <h3 class="showcase-name">Pure Sesame / Til Oil</h3>
+          <p class="showcase-tagline">Wild Black Sesame with Palm Karupatti</p>
+          <button class="btn btn-outline-light btn-discover" style="padding: 0.75rem 1.6rem; font-size: 0.75rem;">
+            Discover Oil & Lab Report
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 10: BRAND STORY (EDITORIAL SPLIT & ANNOTATIONS)
+       Left: Large Typography & Philosophy
+       Right: Documentary Workshop & Rotating Artisanal Stamp
+       ========================================================================== -->
+  <section id="story" class="section brand-story-section">
+    <div class="container">
+      <div class="story-split">
+        <!-- Left: Typography Column -->
+        <div class="story-typography-column">
+          <div class="eyebrow">Generational Philosophy</div>
+          <h2 class="heading-lg clumsy-heading">
+            More Than Oil.<br>
+            A Tradition.
+          </h2>
+
+          <blockquote class="story-philosophy-quote">
+            “True cooking oil is not an industrial solvent. It is the living essence of the soil, unlocked only through unhurried patience.”
+          </blockquote>
+
+          <div class="story-body-paragraphs">
+            <p>
+              At <strong>The Rudrayya Oil Mill</strong>, our founders rebelled against modern commercial refining: the high-heat deodorization, chemical hexane washing, and synthetic bleaches that stripped oils of their natural aroma, color, and soul.
+            </p>
+            <p>
+              Instead, we restored the ancient South Indian tradition of the <em>Marachekku</em>. We harvest when the sun is right, cure on reed mats in village courtyards, and cold-press using aged Vaagai wood at under 14 revolutions per minute.
+            </p>
+          </div>
+
+          <div class="story-annotations">
+            <div class="annotation-badge">
+              <span class="annotation-text">“Traditionally crafted”</span>
+            </div>
+            <div class="annotation-badge">
+              <span class="annotation-text">“Naturally processed”</span>
+            </div>
+            <div class="annotation-badge">
+              <span class="annotation-text">“Made with care”</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Media Column -->
+        <div class="story-media-column">
+          <div class="story-image-frame">
+            <img src="assets/images/craftsmanship.jpg" alt="Artisan at The Rudrayya Oil Mill checking fresh wood-pressed oil">
+            <!-- Rotating Botanical Stamp Seal -->
+            <div class="stamp-seal" aria-hidden="true">
+              <svg viewBox="0 0 100 100">
+                <path id="curve" fill="transparent" d="M 50 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0"/>
+                <text font-size="8.8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" letter-spacing="2.2" fill="#17120B">
+                  <textPath href="#curve">
+                    THE RUDRAYYA OIL MILL • ESTD. HERITAGE •
+                  </textPath>
+                </text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 11: TRUST / QUALITY (ANIMATED METRICS & BATCH TRACER)
+       ========================================================================== -->
+  <section id="trust" class="section trust-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 720px; margin-inline: auto;">
+        <div class="eyebrow">Integrity & Quality</div>
+        <h2 class="heading-lg clumsy-heading">Uncompromising Verification</h2>
+        <p class="lead-text" style="margin-top: 1rem;">
+          Transparency is not a marketing promise; it is recorded in every batch ledger and third-party laboratory test.
+        </p>
+      </div>
+
+      <!-- Animated Upward Numbers -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-number" data-target="100" data-suffix="%">0%</div>
+          <div class="metric-label">Natural Ingredients</div>
+          <div class="metric-sub">Zero artificial chemicals or diluents</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-number" data-target="5" data-suffix="+">0</div>
+          <div class="metric-label">Traditional Processes</div>
+          <div class="metric-sub">Centuries-old wood-press methodology</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-number" data-target="100" data-suffix="%">0%</div>
+          <div class="metric-label">Carefully Crafted</div>
+          <div class="metric-sub">Small artisan batches under 60L daily</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-number" data-target="0" data-suffix="">0</div>
+          <div class="metric-label">Unnecessary Additives</div>
+          <div class="metric-sub">No preservatives, hexane or argemone</div>
+        </div>
+      </div>
+
+      <!-- Interactive Single-Estate Batch Traceability Widget -->
+      <div class="traceability-box">
+        <div>
+          <span class="eyebrow no-after" style="margin-bottom: 0.5rem;">Ledger Transparency</span>
+          <h3 class="heading-md">Trace Your Bottle's Harvest</h3>
+          <p style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.5rem;">
+            Every bottle from The Rudrayya Oil Mill carries a stamped batch code on its label. Enter your code below to view its press date, pressing temperature, and acid value.
+          </p>
+
+          <div class="trace-input-group">
+            <input type="text" id="traceBatchInput" class="trace-input" placeholder="e.g. RUD-2026-OCT" value="RUD-2026-OCT">
+            <button id="traceSearchBtn" class="btn btn-primary" style="padding: 0.9rem 1.6rem; font-size: 0.8rem;" data-cursor-text="VERIFY">
+              Verify Batch
+            </button>
+          </div>
+        </div>
+
+        <div class="trace-result-display">
+          <div class="trace-row">
+            <span style="color: var(--text-muted);">Verification Status</span>
+            <span id="traceStatusText"><strong style="color: var(--accent-green);">✓ Verified Authentic</strong></span>
+          </div>
+          <div class="trace-row">
+            <span style="color: var(--text-muted);">Milling Sanctuary</span>
+            <span id="traceMillText">The Rudrayya Heritage Unit #1</span>
+          </div>
+          <div class="trace-row">
+            <span style="color: var(--text-muted);">Harvest Window</span>
+            <span id="traceHarvestText">October 2026 Season</span>
+          </div>
+          <div class="trace-row">
+            <span style="color: var(--text-muted);">Max Press Temp</span>
+            <span id="traceTempText">38.2°C (Preserved Enzymes)</span>
+          </div>
+          <div class="trace-row">
+            <span style="color: var(--text-muted);">Free Fatty Acids (FFA)</span>
+            <span id="traceAcidText">0.22% (Ultra Low Acidity)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 12: FINAL CTA ("Bring Nature Back To Your Kitchen")
+       Dark Earthy Aesthetic, Floating Bottle & Ambient Oil Droplets
+       ========================================================================== -->
+  <section class="final-cta-section">
+    <!-- Interactive Canvas Droplets -->
+    <canvas id="ctaCanvas" class="final-cta-canvas"></canvas>
+
+    <div class="container final-cta-content">
+      <div class="eyebrow" style="color: var(--accent-gold);">Return To Authenticity</div>
+      <h2 class="final-cta-title clumsy-heading">
+        Bring Nature Back<br>
+        To <em>Your Kitchen.</em>
+      </h2>
+      <p class="lead-text" style="color: var(--text-light-secondary); margin-inline: auto;">
+        Discover traditionally crafted oils made from carefully selected natural ingredients. Taste what genuine purity truly feels like.
+      </p>
+
+      <!-- Floating Bottle Centerpiece -->
+      <div class="floating-cta-bottle-wrap">
+        <div class="bottle-presentation-wrap">
+          <img src="assets/images/bottle_coconut.jpg" alt="The Rudrayya Oil Mill Bottle Floating">
+        </div>
+      </div>
+
+      <div class="final-cta-buttons">
+        <a href="#collection" class="btn btn-primary" data-cursor-text="SHOP">
+          Explore Our Oils
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <button class="btn btn-outline-light btn-add-pantry" data-product-name="The Rudrayya Sample Tasting Trio" data-cursor-text="ORDER">
+          Order Sample Tasting Trio • ₹850
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Col 1: Brand & Animated Drop Icon -->
+        <div class="footer-brand">
+          <a href="#hero" class="logo" style="color: #FFF;">
+            <div class="logo-symbol">
+              <svg viewBox="0 0 32 32">
+                <path d="M16 3 C16 3 8 13 8 19 C8 24 11.5 28 16 28 C20.5 28 24 24 24 19 C24 13 16 3 16 3 Z" />
+                <circle cx="16" cy="19" r="4" fill="#D69726" opacity="0.8"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span>The Rudrayya</span>
+              <span class="logo-sub" style="color: var(--text-light-muted);">Oil Mill • Estd. Wood Press</span>
+            </div>
+          </a>
+          <p>
+            Preserving centuries of artisanal Indian wood-press craftsmanship. 100% natural, unheated, single-estate cold-pressed cooking oils.
+          </p>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <h4 class="footer-col-title">Our Reserve</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#collection">Virgin Coconut Oil</a></li>
+            <li><a href="#collection">Heirloom Groundnut Oil</a></li>
+            <li><a href="#collection">Wood-Pressed Sesame Oil</a></li>
+            <li><a href="#collection">Cold-Pressed Mustard Oil</a></li>
+            <li><a href="#collection">Sample Tasting Trio</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Craft & Heritage -->
+        <div>
+          <h4 class="footer-col-title">The Sanctuary</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#journey">The 5-Step Journey</a></li>
+            <li><a href="#process">Mechanical Simulation</a></li>
+            <li><a href="#story">The Rudrayya Story</a></li>
+            <li><a href="#trust">Batch Ledger Verification</a></li>
+            <li><a href="#trust">NABL Lab Certificates</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Newsletter -->
+        <div>
+          <h4 class="footer-col-title">Harvest Gazette</h4>
+          <p style="font-size: 0.88rem; color: var(--text-light-muted); margin-bottom: 1rem;">
+            Receive seasonal harvest announcements, cold-pressed recipes, and single-estate batch releases.
+          </p>
+          <form id="newsletterForm" class="footer-newsletter-form">
+            <div class="footer-input-wrap">
+              <input type="email" required placeholder="Enter your email address" class="footer-input">
+              <button type="submit" class="footer-submit-btn" data-cursor-text="JOIN">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 The Rudrayya Oil Mill. All rights reserved. Handcrafted with traditional reverence.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: var(--text-light-muted); text-decoration: none;">Instagram</a>
+          <a href="#" style="color: var(--text-light-muted); text-decoration: none;">Facebook</a>
+          <a href="#" style="color: var(--text-light-muted); text-decoration: none;">Artisan Journal</a>
+          <a href="#" style="color: var(--text-light-muted); text-decoration: none;">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL: LABORATORY ANALYSIS DOSSIER
+       ========================================================================== -->
+  <div id="oilDossierModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close Modal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="eyebrow" style="margin-bottom: 0.5rem;">The Rudrayya Oil Mill — NABL Certified</div>
+      <h3 id="modalOilTitle" class="heading-md" style="margin-bottom: 0.8rem;">Oil Dossier</h3>
+      <p id="modalOilDesc" style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.8rem;">
+        Detailed laboratory analytical specs.
+      </p>
+
+      <div class="trace-result-display" style="background: var(--bg-secondary);">
+        <div class="trace-row">
+          <span>Batch Identifier</span>
+          <strong id="modalBatchVal">RUD-2026-OCT-01</strong>
+        </div>
+        <div class="trace-row">
+          <span>Free Fatty Acid (FFA)</span>
+          <strong id="modalAcidVal">0.18%</strong>
+        </div>
+        <div class="trace-row">
+          <span>Peroxide Value</span>
+          <strong id="modalPeroxideVal">0.42 meq/kg</strong>
+        </div>
+        <div class="trace-row">
+          <span>Smoke Point</span>
+          <strong id="modalSmokeVal">177°C / 350°F</strong>
+        </div>
+        <div class="trace-row">
+          <span>Single Estate Coordinates</span>
+          <strong id="modalCoordsVal">11.2588° N, 75.7804° E</strong>
+        </div>
+      </div>
+
+      <div style="margin-top: 1.8rem; text-align: right;">
+        <button class="btn btn-primary" onclick="document.getElementById('oilDossierModal').classList.remove('open'); showToast('Certificate downloaded.');" style="padding: 0.75rem 1.6rem; font-size: 0.8rem;">
+          Download Full PDF Certificate
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CDN Dependencies: GSAP, ScrollTrigger, Lenis Smooth Scroll -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+  <!-- Project Scripts -->
+  <script src="js/droplets-canvas.js"></script>
+  <script src="js/hero-sequence.js"></script>
+  <script src="js/horizontal-scroll.js"></script>
+  <script src="js/process-simulation.js"></script>
+  <script src="js/ingredients-interactive.js"></script>
+  <script src="js/showcase-3d.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
